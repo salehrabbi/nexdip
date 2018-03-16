@@ -2,6 +2,10 @@
   .step .item a.title {
     font-size: 28px;
   }
+
+  .platform .content {
+    border-right: none;
+  }
 }
 @media (max-width: 767px) {
   .text-center767 {
@@ -20,6 +24,15 @@
     display: inline-block;
     margin-bottom: 15px;
   }
+
+  .banner br {
+    display: none;
+  }
+
+  .heading-2 h2,
+  .banner h1 {
+    font-size: 45px;
+  }
 }
 @media (max-width: 479px) {
   .footer-banner a.tab {
@@ -32,11 +45,40 @@
     margin-bottom: 30px;
   }
 
-  .banner h1 {
-    font-size: 35px;
+  .banner h1,
+  .heading-2 h2 {
+    font-size: 30px;
   }
 
   .banner p {
     font-size: 17px;
+  }
+
+  .service-details .content h2 {
+    font-size: 20px;
+  }
+
+  .service-details .content h4 {
+    font-size: 16px;
+  }
+
+  .service-details .content p {
+    font-size: 14px;
+  }
+
+  .service-details {
+    padding: 60px 0 10px 0;
+  }
+
+  .pricing {
+    padding: 60px 0 60px 0;
+  }
+
+  .platform {
+    padding-bottom: 55px;
+  }
+
+  .footer-banner {
+    padding: 60px 0;
   }
 }

@@ -196,3 +196,90 @@ body {
   color: #413541;
   padding-top: 20px;
 }
+
+/*=============================== platform ===========================*/
+.heading-2 h2 {
+  font-size: 47px;
+  line-height: 1.1276595745;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.heading-2 p {
+  max-width: 940px;
+  margin: 0 auto;
+  font: italic 18px/2 "Georgia", "Raleway", sans-serif;
+}
+
+.platform {
+  color: #fff;
+  background: #2D3142;
+  padding-top: 73px;
+  padding-bottom: 90px;
+}
+.platform .content-wraper {
+  padding-top: 50px;
+}
+.platform .content-wraper .col-md-4 {
+  padding: 30px 15px;
+}
+.platform .content {
+  border-right: 1px solid #C4C4C4;
+  height: 100%;
+}
+.platform .content .img {
+  min-height: 88px;
+}
+.platform .content a.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.platform .content p {
+  line-height: 1.6;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+/*=============================== platform ===========================*/
+.service-details {
+  padding: 100px 0 42px 0;
+}
+.service-details .content {
+  max-width: 964px;
+  margin: 0 auto;
+  padding-bottom: 58px;
+}
+.service-details .content h2 {
+  color: #FA3F40;
+  font-size: 30px;
+  line-height: 1.4666666667;
+  font-weight: 900;
+  margin: 0;
+}
+.service-details .content h4 {
+  color: #748493;
+  font-size: 23px;
+  line-height: 1.347826087;
+  margin: 15px 0 30px 0;
+}
+.service-details .content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #748493;
+  margin: 0;
+}
+
+/*=============================== pricing ===========================*/
+.pricing {
+  padding: 74px 0 86px 0;
+  background: #2D3142;
+  color: #fff;
+}
+.pricing .nation-map {
+  max-width: 100%;
+  margin-top: 35px;
+}
