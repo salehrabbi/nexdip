@@ -282,13 +282,79 @@ body {
         }
     }
 }
+
 /*=============================== pricing ===========================*/
-.pricing{
+
+.pricing {
     padding: 74px 0 86px 0;
     background: #2D3142;
     color: #fff;
-    .nation-map{
+    .nation-map {
         max-width: 100%;
         margin-top: 35px;
+    }
+}
+
+
+/*=============================== service-page ===========================*/
+
+.service {
+    padding-bottom: (126px - 36);
+    .service-content-wraper{
+        justify-content: center;
+        .col-md-4{
+            margin-bottom: 36px;
+            float: none;
+        }
+    }
+    .item {
+        background: #fff;
+        box-shadow: 0px 4px 62px rgba(201, 223, 240, 0.44);
+        border-radius: 16px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        .text-top {
+            padding: 60px 27px (54px+70) 45px;
+        }
+        .img {
+            margin-bottom: 50px;
+        }
+        a.title {
+            color: #1D232E;
+            font-size: 25px;
+            line-height: (44/25);
+            font-weight: 900;
+        }
+        p {
+            font-size: 16px;
+            color: #748493;
+            line-height: (27/16);
+            margin: 28px 0 0 0;
+        }
+        .read-more {
+            position: absolute;
+            width: 100%;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            a {
+                color: #4D5D76;
+                font-size: 15px;
+                font-weight: 900;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                text-decoration: none;
+                display: block;
+                padding: 25px 0;
+
+            }
+            &:before {
+                content: "";
+                display: block;
+                height: 3px;
+                background: linear-gradient(90deg, #C24E3E 0%, #4E5D75 99.16%);
+            }
+        }
     }
 }

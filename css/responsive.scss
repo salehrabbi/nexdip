@@ -30,6 +30,10 @@
     .banner h1 {
         font-size: 45px;
     }
+    .service .item {
+        max-width: 356px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width:479px) {
@@ -58,15 +62,18 @@
         font-size: 14px;
     }
     .service-details {
-	padding: 60px 0 10px 0;
-}
+        padding: 60px 0 10px 0;
+    }
     .pricing {
-	padding: 60px 0 60px 0;
-}
+        padding: 60px 0 60px 0;
+    }
     .platform {
-	padding-bottom: 55px;
-}
+        padding-bottom: 55px;
+    }
     .footer-banner {
-	padding: 60px 0;
-}
+        padding: 60px 0;
+    }
+    .service .item .text-top {
+        padding: 60px 27px 124px 27px;
+    }
 }

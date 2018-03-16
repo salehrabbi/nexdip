@@ -33,6 +33,11 @@
   .banner h1 {
     font-size: 45px;
   }
+
+  .service .item {
+    max-width: 356px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 479px) {
   .footer-banner a.tab {
@@ -80,5 +85,9 @@
 
   .footer-banner {
     padding: 60px 0;
+  }
+
+  .service .item .text-top {
+    padding: 60px 27px 124px 27px;
   }
 }
