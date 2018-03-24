@@ -348,3 +348,147 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#C24E3E), color-stop(99.16%, #4E5D75));
   background: linear-gradient(90deg, #C24E3E 0%, #4E5D75 99.16%);
 }
+
+/*=============================== Pricing-page ===========================*/
+.price-base {
+  background: #2D3142;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.price-base .left-side h3 {
+  margin: 0;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.price-base .left-side p {
+  font-size: 17px;
+  line-height: 1.7647058824;
+  margin-bottom: 40px;
+  max-width: 479px;
+}
+.price-base .left-side ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style: none;
+}
+.price-base .left-side ul li {
+  line-height: 1.7647058824;
+  font-size: 17px;
+  font-weight: 700;
+  max-width: 410px;
+  margin-bottom: 20px;
+}
+.price-base .left-side ul li:before {
+  content: "";
+  background: url(../images/list-arrow.png) no-repeat;
+  background-size: 100% 100%;
+  width: 28.09px;
+  height: 15.43px;
+  float: left;
+  position: relative;
+  top: 6px;
+}
+.price-base .left-side ul li span {
+  float: left;
+  display: block;
+  width: calc(100% - 28.09px);
+  padding-left: 15px;
+}
+.price-base .right-side h3 {
+  line-height: 2.0384615385;
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.price-base .right-side small {
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 15px;
+  margin-top: 18px;
+  display: block;
+}
+.price-base .skipto {
+  border-top: 1px solid #4D5D76;
+  padding-top: 30px;
+  margin-top: 45px;
+}
+.price-base .skipto p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.price-base .skipto p span {
+  color: #4D5D76;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.price-base .skipto p a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.table-base {
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);
+  color: #4D5D76;
+  position: relative;
+  overflow: hidden;
+}
+.table-base .table {
+  margin: 0;
+  table-layout: fixed;
+}
+.table-base .table-head,
+.table-base .table-body {
+  padding: 0 30px;
+}
+.table-base .table-body {
+  background: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.table-base .table-head {
+  background: #2D3142;
+}
+.table-base .table th {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.table-base .table td {
+  font-size: 17px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+.table-base td.price {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.table-base td.price:before {
+  content: "$";
+  font-size: 17px;
+  position: relative;
+  top: -6px;
+  margin-right: 5px;
+}
+
+.table-small .table > thead > tr > th,
+.table-small .table > thead > tr td,
+.table-small .table > tbody > tr > th,
+.table-small .table > tbody > tr td {
+  border: transparent;
+}

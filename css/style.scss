@@ -300,9 +300,9 @@ body {
 
 .service {
     padding-bottom: (126px - 36);
-    .service-content-wraper{
+    .service-content-wraper {
         justify-content: center;
-        .col-md-4{
+        .col-md-4 {
             margin-bottom: 36px;
             float: none;
         }
@@ -354,6 +354,166 @@ body {
                 display: block;
                 height: 3px;
                 background: linear-gradient(90deg, #C24E3E 0%, #4E5D75 99.16%);
+            }
+        }
+    }
+}
+
+/*=============================== Pricing-page ===========================*/
+
+.price-base {
+    background: #2D3142;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+    .left-side {
+        h3 {
+            margin: 0;
+            font-size: 31px;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 17px;
+            line-height: (30/17);
+            margin-bottom: 40px;
+            max-width: 479px;
+
+        }
+        ul {
+            padding-left: 20px;
+            margin: 0;
+            list-style: none;
+            li {
+                line-height: (30/17);
+                font-size: 17px;
+                font-weight: 700;
+                max-width: 410px;
+                margin-bottom: 20px;
+                &:before {
+                    content: "";
+                    background: url(../images/list-arrow.png) no-repeat;
+                    background-size: 100% 100%;
+                    width: 28.09px;
+                    height: 15.43px;
+                    float: left;
+                    position: relative;
+                    top: 6px;
+                }
+                span {
+                    float: left;
+                    display: block;
+                    width: calc(100% - 28.09px);
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+    .right-side {
+        h3 {
+            line-height: (53/26);
+            font-size: 26px;
+            margin: 0;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        small {
+            font-family: Georgia;
+            font-style: italic;
+            font-weight: normal;
+            line-height: 30px;
+            font-size: 15px;
+            margin-top: 18px;
+            display: block;
+        }
+    }
+    .skipto{
+        border-top: 1px solid #4D5D76;
+        padding-top: 30px;
+        margin-top: 45px;
+        p{
+            margin: 0;
+            margin-bottom: 15px;
+            span{
+                color: #4D5D76;
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-right: 20px;
+            }
+            a{
+                font-size: 16px;
+                color: #fff;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.table-base {
+    
+    border-radius: 16px;
+    box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);
+    color: #4D5D76;
+    position: relative;
+    overflow: hidden;
+    .table {
+        margin: 0;
+        table-layout: fixed;
+    }
+    .table-head,
+    .table-body {
+        padding: 0 30px;
+    }
+    .table-body{
+        background: #FFFFFF;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .table-head {
+        background: #2D3142;
+    }
+    .table th {
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        vertical-align: middle;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .table td {
+        font-size: 17px;
+        font-weight: 700;
+        vertical-align: middle;
+    }
+    td.price {
+        font-size: 30px;
+        vertical-align: middle;
+        &:before {
+            content: "$";
+            font-size: 17px;
+            position: relative;
+            top: -6px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.table-small {
+
+    .table {
+
+        > thead,
+        > tbody {
+            > tr {
+                > th,
+                td {
+                    border: transparent;
+                }
+
             }
         }
     }
