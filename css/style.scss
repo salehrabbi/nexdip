@@ -428,21 +428,21 @@ body {
             display: block;
         }
     }
-    .skipto{
+    .skipto {
         border-top: 1px solid #4D5D76;
         padding-top: 30px;
         margin-top: 45px;
-        p{
+        p {
             margin: 0;
             margin-bottom: 15px;
-            span{
+            span {
                 color: #4D5D76;
                 font-size: 16px;
                 text-transform: uppercase;
                 font-weight: 700;
                 margin-right: 20px;
             }
-            a{
+            a {
                 font-size: 16px;
                 color: #fff;
                 text-decoration: underline;
@@ -452,7 +452,7 @@ body {
 }
 
 .table-base {
-    
+
     border-radius: 16px;
     box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);
     color: #4D5D76;
@@ -466,7 +466,7 @@ body {
     .table-body {
         padding: 0 30px;
     }
-    .table-body{
+    .table-body {
         background: #FFFFFF;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -516,5 +516,130 @@ body {
 
             }
         }
+    }
+}
+
+.table-big {
+    box-shadow: 0px 4px 51px rgba(0, 0, 0, 0.11);
+    .table {
+        > thead {
+            > tr {
+                > th {
+                    border: transparent;
+                }
+
+            }
+        }
+        > tbody {
+            > tr {
+                > td {
+                    border-top: 1px solid #C4C4C4;
+                }
+                &:first-child {
+                    > td {
+                        border: transparent;
+                    }
+                }
+            }
+        }
+    }
+    td {
+
+        h4 {
+            font-size: 17px;
+            color: #4D5D76;
+            margin: 0;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+            color: #2D3142;
+            line-height: (30/14);
+            font-weight: 300;
+        }
+    }
+    .table-body {
+        padding: (42px - 24) 30px;
+    }
+    td.price {
+
+        &:before {
+            display: none;
+        }
+        p {
+            font-size: 45px;
+            color: #4D5D76;
+            font-weight: 700;
+            font-weight: 700;
+            margin: 0;
+            &:before {
+                content: "$";
+                font-size: 17px;
+                position: relative;
+                top: -6px;
+                margin-right: 5px;
+                font-size: 23px;
+            }
+        }
+        small {
+            color: #4E5D76;
+            font-size: 14px;
+            font-weight: 700;
+            display: block;
+            position: relative;
+            top: -10px;
+        }
+    }
+}
+
+.main-table {
+    padding-top: (76px - 57px);
+    .head {
+        padding-top: 57px;
+        padding-bottom: 28px;
+        h2 {
+            font-size: 31px;
+            color: #2D3142;
+            font-weight: 900;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #2D3142;
+            font-size: 17px;
+
+        }
+    }
+
+}
+
+.table-blank {
+    box-shadow: none;
+    margin-top: (57px - 28);
+    .table-head {
+        background: transparent;
+    }
+    .table th {
+        color: #4D5D76;
+        border-bottom: 1px solid #EDEDED !important;
+        font-size: 17px;
+        letter-spacing: 0;
+        text-transform: capitalize;
+    }
+    td.price p {
+        font-size: 33px;
+    }
+    td.price small {
+        font-size: 12px;
+    }
+    .table > tbody > tr > td {
+        border-color: #EDEDED;
+    }
+    .table > tbody > tr:last-child > td {
+        border-bottom: 1px solid #EDEDED
+    }
+    .table-body {
+        padding-bottom: 0;
     }
 }
