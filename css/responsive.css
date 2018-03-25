@@ -27,6 +27,10 @@
   .table-big td p {
     line-height: 1.7;
   }
+
+  .footer-banner h2 br {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .text-center767 {
@@ -73,14 +77,21 @@
     width: 100%;
     display: block;
     text-align: left;
+    border-color: transparent;
+  }
+  .table-blank .table > tbody > tr > td:first-child {
+    padding-top: 20px;
   }
   .table-blank .table-head,
   .table-blank .table-body {
     width: 100%;
   }
   .table-blank .table > tbody > tr > td.price {
-    border-top: 1px solid #EDEDED;
-    border-bottom: transparent;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 15px;
+  }
+  .table-blank .table > tbody > tr > td.price p {
+    line-height: 1.5;
   }
   .table-blank .table > tbody > tr:last-child > td {
     border-bottom: transparent;
@@ -91,6 +102,12 @@
   .table-blank .table-body,
   .table-blank .table-head {
     padding: 15px 5px;
+  }
+  .table-blank .table td {
+    padding: 0px 8px;
+  }
+  .table-blank .table td p {
+    margin: 0;
   }
 }
 @media (max-width: 575px) {
