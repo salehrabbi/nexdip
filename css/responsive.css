@@ -7,8 +7,25 @@
     border-right: none;
   }
 
-  .price-base .left-side ul li, .price-base .left-side p {
+  .price-base .left-side ul li,
+  .price-base .left-side p {
     max-width: 100%;
+  }
+
+  .price-base {
+    padding-top: 50px;
+  }
+
+  .table-big .table td {
+    padding: 25px 8px;
+  }
+
+  .price-base .right-side h3 {
+    margin-top: 60px;
+  }
+
+  .table-big td p {
+    line-height: 1.7;
   }
 }
 @media (max-width: 767px) {
@@ -47,8 +64,16 @@
     border: none;
   }
 
-  .table-base .table-head, .table-base .table-body {
+  .table-base .table-head,
+  .table-base .table-body {
     width: 520px;
+  }
+}
+@media (max-width: 575px) {
+  .pricing-page .footer-banner a.tab {
+    padding: 10px 20px;
+    width: auto;
+    min-width: 290px;
   }
 }
 @media (max-width: 479px) {

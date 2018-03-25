@@ -598,3 +598,7 @@ body {
 .table-blank .table-body {
   padding-bottom: 0;
 }
+
+.table-responsive {
+  margin: 0;
+}
