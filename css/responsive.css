@@ -6,6 +6,10 @@
   .platform .content {
     border-right: none;
   }
+
+  .price-base .left-side ul li, .price-base .left-side p {
+    max-width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .text-center767 {
@@ -37,6 +41,14 @@
   .service .item {
     max-width: 356px;
     margin: 0 auto;
+  }
+
+  .table-responsive {
+    border: none;
+  }
+
+  .table-base .table-head, .table-base .table-body {
+    width: 520px;
   }
 }
 @media (max-width: 479px) {
