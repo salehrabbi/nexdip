@@ -68,6 +68,30 @@
   .table-base .table-body {
     width: 520px;
   }
+
+  .table-blank .table > tbody > tr > td {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+  .table-blank .table-head,
+  .table-blank .table-body {
+    width: 100%;
+  }
+  .table-blank .table > tbody > tr > td.price {
+    border-top: 1px solid #EDEDED;
+    border-bottom: transparent;
+  }
+  .table-blank .table > tbody > tr:last-child > td {
+    border-bottom: transparent;
+  }
+  .table-blank .table > tbody > tr:last-child > td.price {
+    border-bottom: 1px solid #EDEDED;
+  }
+  .table-blank .table-body,
+  .table-blank .table-head {
+    padding: 15px 5px;
+  }
 }
 @media (max-width: 575px) {
   .pricing-page .footer-banner a.tab {

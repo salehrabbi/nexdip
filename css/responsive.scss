@@ -57,6 +57,34 @@
     .table-base .table-body {
         width: 520px;
     }
+    .table-blank {
+        .table > tbody > tr > td {
+            width: 100%;
+            display: block;
+            text-align: left;
+        }
+        .table-head,
+        .table-body {
+            width: 100%;
+        }
+        .table > tbody > tr > td.price {
+            border-top: 1px solid #EDEDED;
+            border-bottom: transparent;
+        }
+        .table > tbody > tr:last-child > {
+            td {
+                border-bottom: transparent;
+            }
+            td.price {
+                border-bottom: 1px solid #EDEDED;
+            }
+        }
+        .table-body,
+        .table-head {
+            padding: 15px 5px;
+        }
+    }
+
 }
 
 @media (max-width:575px) {
